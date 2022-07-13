@@ -1,0 +1,17 @@
+ERROR - 2022-04-14 21:33:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(1) NULL DEFAULT NULL,
+	`phone` VARCHAR(250) NULL DEFAULT NULL,
+	`password` V...' at line 6
+CRITICAL - 2022-04-14 21:58:58 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\codeIgniter\new-app2\app\Controllers\Login.php(218): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 218, Array)
+#1 C:\xampp\htdocs\codeIgniter\new-app2\system\CodeIgniter.php(824): App\Controllers\Login->user_email_active('dmlkeXV0LnN0YXI...', '1')
+#2 C:\xampp\htdocs\codeIgniter\new-app2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\codeIgniter\new-app2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeIgniter\new-app2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 21:59:22 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\codeIgniter\new-app2\app\Controllers\Login.php(219): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 219, Array)
+#1 C:\xampp\htdocs\codeIgniter\new-app2\system\CodeIgniter.php(824): App\Controllers\Login->user_email_active('dmlkeXV0LnN0YXI...', '1')
+#2 C:\xampp\htdocs\codeIgniter\new-app2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\codeIgniter\new-app2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\codeIgniter\new-app2\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
