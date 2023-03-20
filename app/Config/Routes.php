@@ -49,7 +49,7 @@ $routes->post('user_phoneCheck', 'Login::phoneCheck');
 $routes->group("user",['filter'=>'loggedout_user'], function($routes){
 $routes->get('user_login', 'Login::viewlogin');  
 $routes->get('user_register', 'Login::viewregister'); 
-
+ 
 $routes->post('user_register', 'Login::user_register');
 $routes->post('user_login', 'Login::login_verify');
 
